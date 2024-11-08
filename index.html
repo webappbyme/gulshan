@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gulshan | Real Estate Agency</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Gulshan's Real Estate Agency</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#calculator">Mortgage Calculator</a></li>
+                <li><a href="#viewing-request">Property Viewing Request</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="animated-section">
+        <h2>About Us</h2>
+        <p>At Gulshans Real Estate Agency, we are committed to helping you find your dream property. Our experienced team of real estate professionals is dedicated to providing personalized service and expert guidance throughout the buying and selling process.</p>
+        <img src="aboutus.jpg" alt="About Us" class="about-image">
+        <img src="aboutus1.jpeg" alt="About Us" class="about-image">
+        <img src="aboutus2.jpg" alt="About Us" class="about-image">
+        <img src="aboutus3.jpg" alt="About Us" class="about-image">
+        <img src="aboutus4.jpg" alt="About Us" class="about-image">
+        <img src="aboutus5.jpg" alt="About Us" class="about-image">
+        <p>We understand that real estate transactions can be overwhelming, which is why we strive to make the process as smooth and enjoyable as possible. Whether you are a first-time buyer or a seasoned investor, we have the resources and expertise to assist you.</p>
+    </section>
+
+    <div class="narrow-container">
+        <section id="calculator" class="animated-section">
+            <h2>Mortgage Calculator</h2>
+            <form id="mortgage-form">
+                <label for="loan-amount">Loan Amount:</label>
+                <input type="number" id="loan-amount" required>
+                <label for="interest-rate">Interest Rate (%):</label>
+                <input type="number" id="interest-rate" required>
+                <label for="loan-term">Loan Term (years):</label>
+                <input type="number" id="loan-term" required>
+                <button type="submit">Calculate</button>
+            </form>
+            <div id="result"></div>
+        </section>
+
+        <section id="viewing-request" class="animated-section">
+            <h2>Property Viewing Request</h2>
+            <form id="viewing-form">
+                <label for="property-name">Property Name:</label>
+                <input type="text" id="property-name" required>
+                <label for="viewer-name">Your Name:</label>
+                <input type="text" id="viewer-name" required>
+                <label for="viewer-email">Your Email:</label>
+                <input type="email" id="viewer-email" required>
+                <button type="submit">Request Viewing</button>
+            </form>
+        </section>
+
+        <section id="contact" class="animated-section">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="contact-name">Your Name:</label>
+                <input type="text" id="contact-name" required>
+                <label for="contact-email">Your Email:</label>
+                <input type="email" id="contact-email" required>
+                <label for="contact-message">Message:</label>
+                <textarea id="contact-message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Real Estate Agency</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
